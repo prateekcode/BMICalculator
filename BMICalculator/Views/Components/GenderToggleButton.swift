@@ -7,20 +7,20 @@
 
 import SwiftUI
 
-struct SexToggleButton: View {
+struct GenderToggleButton: View {
     
-    var sex: Sex
+    var gender: Gender
     var isPressed: Bool
     var action: () -> Void
     
     var body: some View {
         VStack(spacing: 8){
-            Image(sex.configType().0)
+            Image(gender.configType().0)
                 .renderingMode(.template)
                 .resizable()
                 .scaledToFit()
                 .frame(maxHeight: 80)
-            Text(sex.configType().1.uppercased())
+            Text(gender.configType().1.uppercased())
                 .font(.title3)
                 .bold()
                 .fontDesign(.rounded)
@@ -38,7 +38,7 @@ struct SexToggleButton: View {
     }
 }
 
-enum Sex {
+enum Gender {
     case Male
     case Female
     
@@ -52,9 +52,9 @@ enum Sex {
     }
 }
 
-struct SexToggleButton_Previews: PreviewProvider {
+struct GenderToggleButton_Previews: PreviewProvider {
     static var previews: some View {
-        SexToggleButton(sex: Sex.Female, isPressed: .random(), action: {
+        GenderToggleButton(gender: Gender.Female, isPressed: .random(), action: {
             print("Do something")
         })
     }

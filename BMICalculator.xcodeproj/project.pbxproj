@@ -13,7 +13,7 @@
 		E7B95DBD2A15D1A7000B12FB /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DBC2A15D1A7000B12FB /* ColorExtension.swift */; };
 		E7B95DC12A15D219000B12FB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DC02A15D219000B12FB /* HomeView.swift */; };
 		E7B95DC32A15D335000B12FB /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DC22A15D335000B12FB /* ButtonView.swift */; };
-		E7B95DC52A15D955000B12FB /* SexToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DC42A15D955000B12FB /* SexToggleButton.swift */; };
+		E7B95DC52A15D955000B12FB /* GenderToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DC42A15D955000B12FB /* GenderToggleButton.swift */; };
 		E7B95DC72A15E15D000B12FB /* HeightScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DC62A15E15D000B12FB /* HeightScaleView.swift */; };
 		E7B95DCA2A15F208000B12FB /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DC92A15F208000B12FB /* TextModifier.swift */; };
 		E7B95DCC2A161159000B12FB /* GeneralScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DCB2A161159000B12FB /* GeneralScaleView.swift */; };
@@ -28,7 +28,7 @@
 		E7B95DBC2A15D1A7000B12FB /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		E7B95DC02A15D219000B12FB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E7B95DC22A15D335000B12FB /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
-		E7B95DC42A15D955000B12FB /* SexToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexToggleButton.swift; sourceTree = "<group>"; };
+		E7B95DC42A15D955000B12FB /* GenderToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderToggleButton.swift; sourceTree = "<group>"; };
 		E7B95DC62A15E15D000B12FB /* HeightScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightScaleView.swift; sourceTree = "<group>"; };
 		E7B95DC92A15F208000B12FB /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
 		E7B95DCB2A161159000B12FB /* GeneralScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralScaleView.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				E7B95DC22A15D335000B12FB /* ButtonView.swift */,
-				E7B95DC42A15D955000B12FB /* SexToggleButton.swift */,
+				E7B95DC42A15D955000B12FB /* GenderToggleButton.swift */,
 				E7B95DC62A15E15D000B12FB /* HeightScaleView.swift */,
 				E7B95DCB2A161159000B12FB /* GeneralScaleView.swift */,
 			);
@@ -197,7 +197,7 @@
 				E7B95DBD2A15D1A7000B12FB /* ColorExtension.swift in Sources */,
 				E7B95DC12A15D219000B12FB /* HomeView.swift in Sources */,
 				E7B95DC32A15D335000B12FB /* ButtonView.swift in Sources */,
-				E7B95DC52A15D955000B12FB /* SexToggleButton.swift in Sources */,
+				E7B95DC52A15D955000B12FB /* GenderToggleButton.swift in Sources */,
 				E7B95DAE2A15D10E000B12FB /* BMICalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

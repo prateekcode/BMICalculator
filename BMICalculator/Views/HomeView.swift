@@ -13,7 +13,7 @@ struct HomeView: View {
     @State var selectedAge: Int = 13
     @State var selectedWeight: Int = 13
     @State var selectedHeight: Int = 50
-    @State var selectedSex: Sex? = .Male
+    @State var selectedGender: Gender? = .Male
     
     var body: some View {
         NavigationView {
@@ -32,11 +32,11 @@ struct HomeView: View {
                     
                     // Sex toggle view
                     HStack{
-                        SexToggleButton(sex: .Male, isPressed: selectedSex == .Male){
-                            selectedSex = .Male
+                        GenderToggleButton(gender: .Male, isPressed: selectedGender == .Male){
+                            selectedGender = .Male
                         }
-                        SexToggleButton(sex: .Female, isPressed: selectedSex == .Female){
-                            selectedSex = .Female
+                        GenderToggleButton(gender: .Female, isPressed: selectedGender == .Female){
+                            selectedGender = .Female
                         }
                     }
                     
@@ -61,7 +61,7 @@ struct HomeView: View {
                     
                     // Calculate BMI Button View
                     NavigationLink(destination: {
-                        DetailView(userInput: UserInput(sex: selectedSex ?? .Male, height: Float(selectedHeight), weight: Float(selectedWeight), age: selectedAge))
+                        DetailView(userInput: UserInput(gender: selectedGender ?? .Male, height: Float(selectedHeight), weight: Float(selectedWeight), age: selectedAge))
                     }, label: {
                         ButtonLabelView(buttonTitleText: "Calculate Your BMI")
                     })
@@ -79,7 +79,7 @@ struct HomeView_Previews: PreviewProvider {
 }
 
 struct UserInput{
-    var sex: Sex
+    var gender: Gender
     var height: Float
     var weight: Float
     var age: Int

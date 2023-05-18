@@ -92,7 +92,7 @@ struct DetailView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(userInput: UserInput(sex: .Male, height: 12, weight: 43, age: 23))
+        DetailView(userInput: UserInput(gender: .Male, height: 12, weight: 43, age: 23))
     }
 }
 
