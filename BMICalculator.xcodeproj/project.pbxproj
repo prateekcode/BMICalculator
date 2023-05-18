@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		E7B95DAE2A15D10E000B12FB /* BMICalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DAD2A15D10E000B12FB /* BMICalculatorApp.swift */; };
-		E7B95DB02A15D10E000B12FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DAF2A15D10E000B12FB /* ContentView.swift */; };
 		E7B95DB22A15D10F000B12FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B95DB12A15D10F000B12FB /* Assets.xcassets */; };
 		E7B95DB52A15D10F000B12FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B95DB42A15D10F000B12FB /* Preview Assets.xcassets */; };
+		E7B95DBD2A15D1A7000B12FB /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DBC2A15D1A7000B12FB /* ColorExtension.swift */; };
+		E7B95DC12A15D219000B12FB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DC02A15D219000B12FB /* HomeView.swift */; };
+		E7B95DC32A15D335000B12FB /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DC22A15D335000B12FB /* ButtonView.swift */; };
+		E7B95DC52A15D955000B12FB /* SexToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DC42A15D955000B12FB /* SexToggleButton.swift */; };
+		E7B95DC72A15E15D000B12FB /* HeightScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DC62A15E15D000B12FB /* HeightScaleView.swift */; };
+		E7B95DCA2A15F208000B12FB /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DC92A15F208000B12FB /* TextModifier.swift */; };
+		E7B95DCC2A161159000B12FB /* GeneralScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DCB2A161159000B12FB /* GeneralScaleView.swift */; };
+		E7B95DCE2A166464000B12FB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DCD2A166464000B12FB /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E7B95DAA2A15D10E000B12FB /* BMICalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMICalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B95DAD2A15D10E000B12FB /* BMICalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorApp.swift; sourceTree = "<group>"; };
-		E7B95DAF2A15D10E000B12FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7B95DB12A15D10F000B12FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B95DB42A15D10F000B12FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7B95DBC2A15D1A7000B12FB /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E7B95DC02A15D219000B12FB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E7B95DC22A15D335000B12FB /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		E7B95DC42A15D955000B12FB /* SexToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexToggleButton.swift; sourceTree = "<group>"; };
+		E7B95DC62A15E15D000B12FB /* HeightScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightScaleView.swift; sourceTree = "<group>"; };
+		E7B95DC92A15F208000B12FB /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
+		E7B95DCB2A161159000B12FB /* GeneralScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralScaleView.swift; sourceTree = "<group>"; };
+		E7B95DCD2A166464000B12FB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				E7B95DAD2A15D10E000B12FB /* BMICalculatorApp.swift */,
-				E7B95DAF2A15D10E000B12FB /* ContentView.swift */,
+				E7B95DBE2A15D1FB000B12FB /* Views */,
+				E7B95DC82A15F1EB000B12FB /* ViewModifiers */,
+				E7B95DBB2A15D195000B12FB /* Extensions */,
 				E7B95DB12A15D10F000B12FB /* Assets.xcassets */,
 				E7B95DB32A15D10F000B12FB /* Preview Content */,
 			);
@@ -65,6 +81,43 @@
 				E7B95DB42A15D10F000B12FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7B95DBB2A15D195000B12FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E7B95DBC2A15D1A7000B12FB /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E7B95DBE2A15D1FB000B12FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7B95DBF2A15D206000B12FB /* Components */,
+				E7B95DC02A15D219000B12FB /* HomeView.swift */,
+				E7B95DCD2A166464000B12FB /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E7B95DBF2A15D206000B12FB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E7B95DC22A15D335000B12FB /* ButtonView.swift */,
+				E7B95DC42A15D955000B12FB /* SexToggleButton.swift */,
+				E7B95DC62A15E15D000B12FB /* HeightScaleView.swift */,
+				E7B95DCB2A161159000B12FB /* GeneralScaleView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E7B95DC82A15F1EB000B12FB /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E7B95DC92A15F208000B12FB /* TextModifier.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +190,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B95DB02A15D10E000B12FB /* ContentView.swift in Sources */,
+				E7B95DCC2A161159000B12FB /* GeneralScaleView.swift in Sources */,
+				E7B95DCE2A166464000B12FB /* DetailView.swift in Sources */,
+				E7B95DC72A15E15D000B12FB /* HeightScaleView.swift in Sources */,
+				E7B95DCA2A15F208000B12FB /* TextModifier.swift in Sources */,
+				E7B95DBD2A15D1A7000B12FB /* ColorExtension.swift in Sources */,
+				E7B95DC12A15D219000B12FB /* HomeView.swift in Sources */,
+				E7B95DC32A15D335000B12FB /* ButtonView.swift in Sources */,
+				E7B95DC52A15D955000B12FB /* SexToggleButton.swift in Sources */,
 				E7B95DAE2A15D10E000B12FB /* BMICalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
