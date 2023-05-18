@@ -59,6 +59,7 @@ struct DetailView: View {
                         .fontDesign(.rounded)
                         .multilineTextAlignment(.center)
                         .foregroundColor(.white)
+                        .padding(.horizontal, 4)
                         .padding(.top, 16)
                         .padding(.bottom, 48)
                 }
